@@ -1,0 +1,266 @@
+*{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
+}
+h2{
+    margin:1rem 1rem 1rem 0.5rem;
+   
+}
+.Navigation{
+    position:sticky;
+    top:0px;
+    display:flex;
+    height: 6vh;
+    justify-content: space-between;
+    padding:0 2rem;
+    align-items: center;
+    background-color: #c4c1e0;
+    opacity:0.9;
+    margin:5px;
+    z-index:2;      
+    border-radius: 0.7rem;
+    animation:enter 1.4s linear 0s 1 normal;
+ }
+ .Navigation h1{
+    font-family: 'Tilt Prism', cursive;
+    font-size: 4rem;
+    margin:0;
+ }
+ .Navigation h1:hover{
+    animation:rotate 1s linear 0.2s 1 normal;
+ }
+ .n{
+    font-family: 'Tilt Prism', cursive;
+    font-size:6.5rem;
+ }
+.Navigation a{  
+    font-size: 1.3rem;
+    text-decoration: none;
+    color:black;
+    padding: 0.2rem 0.5rem;
+    transition:all 0.8s linear 0s;
+}
+.options{
+    width: fit-content;
+    height: fit-content;
+    display:flex;
+    justify-content: space-around;
+}
+.options>div{
+    margin-left:1rem;
+    border-radius:5px;
+    border-radius: 0.5rem;
+    background-color: #F3FDE8;
+    transition: all 0.5ms linear 0s;
+    border: 2px solid grey;
+    box-shadow:1px 1px 5px grey;
+}
+.options>div:hover{
+    box-shadow:1px 1px 7px black;
+}
+.main{
+    margin:5px 5px 7px 5px;
+    background-image: url(img/—Pngtree—abstract\ playful\ portfolio\ pink\ memphis_1347357.png);
+    display:flex;
+    height:92vh;
+    justify-content: space-around;
+    align-items: center;
+    /* border:2px solid black; */
+    background-size: cover;
+    border-radius: 0.7rem;
+}
+.container{
+    background-image: url(img/profile.jpg);
+    background-size: cover;
+    width:27rem;
+    height:27rem;
+    border-radius:50%;
+    border:7px solid #ecaa9e;
+}
+.info h1{
+    font-size:5rem;    
+    font-family: 'Poppins', sans-serif;
+}
+/* .info p{
+    font-size:2em;
+    font-weight: 600;
+    opacity:0.5;
+} */
+.info p{
+    font-size:2em;
+    font-weight: 600;
+    opacity:0.6;
+}
+.info a{
+    font-size:1.7rem;
+    text-decoration:none;
+    color:black;
+    display:inline;
+}
+.box{
+    width:20px;
+    background-color: #A8DF8E;
+}
+#about{
+    display:flex;
+    width:100%;
+    margin: 5px;
+}
+.inform{
+    width:65%;
+    
+}
+.inform .aboutInfo{
+    padding-top:0.5rem;
+    background-color: #FDE7E1;
+    border-radius: 0.7rem;
+}
+.inform .aboutInfo p{
+    margin:0rem 0.5rem;
+    margin-top: 11px;
+    line-height: 1.5rem;
+    text-align: justify;
+    font-weight: 400;
+}
+.Education{
+    padding-top:0.5rem;
+    background-color: #FDE7E1;
+    margin-top: 10px;
+    border-radius: 0.7rem;
+}
+.Education p{
+    margin:0rem 0.5rem;
+    margin-top: 11px;
+    line-height: 1.5rem;
+    margin-left: 0.5rem;
+    text-align: justify;
+    font-weight: 400;
+}
+.skills{
+    padding-top:0.5rem;
+    width: 34%;
+    margin-left:5px;
+    background-color:#CAC7E3;
+    opacity:0.9;
+    border-radius: 0.7rem;
+    position:relative;
+    
+}
+.range-field::-webkit-slider-runnable-track{
+    appearance: none;
+    width:90%;
+}
+#project{
+    padding-top:0.5rem;
+    padding-bottom:3rem;
+    background-color: #FDE7E1;
+    height: 100vh;
+    margin:5px;
+    border-radius: 0.7rem;
+}
+.hopengo{
+    margin-top:3rem;
+    display:flex;
+    justify-content:space-around;
+
+}
+.hopengo .img{
+    width: 870px;
+    height: 40vh;
+    border-radius:5px;
+    border:7px solid #ecaa9e;
+}
+.hopengo p{
+    margin:20px 0.5rem 0 0;
+    width:700px;
+    text-align: justify;
+    font-weight: 400;
+}
+.hopengo .disc{
+    margin-top:1rem;
+    margin-left:0.5rem;
+}
+.ranges{
+    margin-left:0.5rem;
+}
+.range{
+    margin-top:2px;
+    width:95%;
+    height: 10px;
+    background-color: lightslategray;
+    border-radius:5px
+}
+.range_bar{
+    height: 10px;
+    background-color: lavenderblush;
+    border-radius:5px
+}
+.footer{
+    margin:5px;
+    height: 10vh;
+    background-color:#c4c1e0;
+    display:flex;
+    align-items:center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 0.7rem;
+}
+.footer h2{
+    margin:0;
+}
+.icon{
+    display:flex;
+    position: relative;
+    right:5px;
+}
+.icons a img{
+   width: 2rem;
+   height: 2rem;
+   opacity: 2;
+   margin-left: 0.7rem;
+   transition:all 0.5ms linear 0s;
+}
+.icons:hover{
+    transform:scale(1.3);
+
+}
+.img{
+    background-image: url(img/ngo.png);
+    background-size:cover;
+}
+#spot{
+    background-image: url(img/spotify.png);
+}
+.cont{
+    margin-right: 0.2rem;
+    width:1rem;
+    height:2rem;
+    background-color: #CAC7E3;
+    color:#CAC7E3
+}
+#cont{
+    color:#FDE7E1;
+    background-color:#FDE7E1;
+}
+@keyframes rotate{
+    from{transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
+
+@keyframes enter{
+    from{top:-100px;
+    opacity: 0;
+}
+    to{
+        top:0px;
+        opacity:0.9;
+    }
+}
+@keyframes opa {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity:1;
+    }
+}
